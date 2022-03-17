@@ -7,8 +7,8 @@ const NavigationToAdmin = props => {
 
 const Home = props => {
     return (
-      <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-        <Button title="GO TO ADMIN" onPress={ () => NavigationToAdmin(props)} />
+      <View style={{ width: '100%', height: '100vh'}}>
+        <iframe src='https://museucomputacao.github.io' width={'100%'} height={'100%'} frameborder={0} />
       </View>
     );
   }
